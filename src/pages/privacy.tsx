@@ -4,12 +4,12 @@ import { useState } from "react";
 export default function PrivacyPage() {
 
 return (
-<section class="main-section">
+<section className="main-section">
   <Head>
     <title>AskPDF | Get Instant Answers to Your Questions on Any PDF File</title>
   </Head>
-  <div class="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
-    <div class="prose">
+  <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
+    <div className="prose">
       <h1>Privacy Policy</h1>
       <p>Last modified: March 14, 2023</p>
       <h5>1. Introduction</h5>

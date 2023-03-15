@@ -4,29 +4,29 @@ import { useState } from "react";
 export default function LoginPage() {
 
 return (
-  <div class="mx-auto w-full rounded-xl bg-neutral-100 p-6">
+  <div className="mx-auto w-full rounded-xl bg-neutral-100 p-6">
     <Head>
       <title>Get Instant Answers to Your PDF Questions with ChatGPT API</title>
     </Head>
     <div
-      class="flex w-full flex-col items-center space-y-12 py-12 text-center md:py-32"
+      className="flex w-full flex-col items-center space-y-12 py-12 text-center md:py-32"
     >
-      <div class="flex max-w-xl flex-col space-y-4">
+      <div className="flex max-w-xl flex-col space-y-4">
         <h1
-          class="text-4xl font-semibold leading-snug tracking-tight md:text-5xl"
+          className="text-4xl font-semibold leading-snug tracking-tight md:text-5xl"
         >
           Sign up today.
         </h1>
-        <p class="text-gray-600">
+        <p className="text-gray-600">
           Get started with ChatGPT API today and start getting instant answers to your PDF questions.
         </p>
       </div>
-      <div class="max-4xl flex flex-col space-y-4">
+      <div className="max-4xl flex flex-col space-y-4">
         <button
-          class="flex w-full items-center justify-center rounded-lg border border-gray-200 bg-white py-2 px-6 text-center font-medium text-gray-700 shadow-sm hover:text-gray-500"
+          className="flex w-full items-center justify-center rounded-lg border border-gray-200 bg-white py-2 px-6 text-center font-medium text-gray-700 shadow-sm hover:text-gray-500"
         >
           <svg
-            class="mr-2"
+            className="mr-2"
             width="20"
             height="19"
             viewBox="0 0 25 24"
@@ -52,36 +52,36 @@ return (
           </svg>
           Sign up with Google
         </button>
-        <p class="text-neutral-400">Or</p>
-        <form class="flex flex-col space-y-3">
+        <p className="text-neutral-400">Or</p>
+        <form className="flex flex-col space-y-3">
           <input
             type="email"
             id="email"
-            class="block w-full rounded-md border border-gray-200 py-2.5 px-4 text-base text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+            className="block w-full rounded-md border border-gray-200 py-2.5 px-4 text-base text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
             placeholder="Email"
             required
           />
           <input
             type="password"
             id="password"
-            class="block w-full rounded-md border border-gray-200 py-2.5 px-4 text-base text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+            className="block w-full rounded-md border border-gray-200 py-2.5 px-4 text-base text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
             placeholder="Password"
             required
           />
           <button
             type="submit"
-            class="rounded-md bg-green-600 py-2.5 px-8 text-base font-medium text-white hover:bg-green-700"
+            className="rounded-md bg-green-600 py-2.5 px-8 text-base font-medium text-white hover:bg-green-700"
           >
             Create account
           </button>
         </form>
-        <p class="text-gray-600">
+        <p className="text-gray-600">
           Already have an account?
-          <a class="font-medium text-gray-900 hover:text-gray-500" href=""
+          <a className="font-medium text-gray-900 hover:text-gray-500" href=""
             >Log in</a
           >
         </p>
-        <p class="text-xs text-gray-500">
+        <p className="text-xs text-gray-500">
           By clicking "Create account", I agree to Terms and
           Privacy.
         </p>
