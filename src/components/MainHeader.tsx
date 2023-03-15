@@ -1,3 +1,5 @@
+import Script from 'next/script'
+
 export default function MainHeader() {
 
   return (
@@ -49,6 +51,18 @@ export default function MainHeader() {
 	      Log In
 	    </a>
 	  </div>
+<Script id="show-banner" strategy="afterInteractive">
+  {`const button = document.querySelector("#menu-button");
+      const buttons = document.querySelector("#buttons");
+      const nav = document.querySelector("#nav");
+
+      button.addEventListener("click", () => {
+        buttons.classList.toggle("hidden");
+        nav.classList.toggle("hidden");
+      })`}
+</Script>
+
 	</div>
+
   );
 }
