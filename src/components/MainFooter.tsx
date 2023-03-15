@@ -1,4 +1,4 @@
-export default function MainHeader() {
+export default function MainFooter() {
 
   return (
 	<div class="flex w-full flex-col justify-between space-y-4 md:flex-row md:items-center md:space-y-0">
